@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 02</title>
+
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Repositótios do GitHub</h1>
+  </header>
+  <div class="container">
+    <div class="forms">
+      <input type="text" name="txtUser" id="txtUser" placeholder="Digite o nome no GitHub...">
+      <button type="button" name="button" id="button" onclick="pesquisar()">Pesquisar</button>
+    </div>
+  </div>
+  <div class="resultado">
+    <ul class="list"></ul>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./src/script.js"></script>
+</body>
+
+</html>

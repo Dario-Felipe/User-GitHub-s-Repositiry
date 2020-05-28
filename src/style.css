@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: blueviolet;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#txtUser {
+    font-size: 25px;
+    background-color: #9c61d3;
+    color: #51029b;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 18px;
+ }
+
+
+#button {
+    padding: 6px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+}
